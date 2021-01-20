@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>{{title}}</h1>
+        <p>{{message}}</p>
+        <form method="post" action="/" >
+            <div class="bgimg">
+                <div>
+                <img src="https://collaborate.pega.com/sites/default/files/pega-user-image/REG-201542.png" id="profilelogo"> </div>
+                
+                <div class="box">USER LOGIN
+                <br><br>
+                <div><input type="text" class="inputbox" placeholder="USER NAME" name="username" value="{{user.username}}"> </div><br>
+                {% if (error.username)%}
+                <p> {{error.username.msg}} </p>
+                {% endif %}
+
+                <div><input type="password" class="inputbox" placeholder="PASSWORD" name="password" value="{{user.password}}"></div> <br>
+                {% if (error.password)%}
+                <p> {{error.password.msg}} </p>
+                {% endif %}
+
+                <div><input type="password" class="inputbox1" placeholder="CONFIRM PASSWORD" name="cpassword"></div> <br>
+                {% if (error.cpassword)%}
+                <p> {{error.cpassword.msg}} </p>
+                {% endif %}
+
+                <button type="submit" class="input">Login</button><br><br>
+                <h4><a href="wwww.google.com" class="input">Forget password</a></h4>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
