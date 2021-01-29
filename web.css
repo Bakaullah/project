@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+   
+}
+body{
+    text-align: center;
+    font-size: 0px;
+    height: 100%;
+}
+#title{
+    height: 18px;
+    width: auto;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: rgb(9, 31, 31);
+    color:white;
+    font-size: 14px;
+    word-spacing: 1px;
+    padding:1px;
+}
+#header{ 
+    height: 300px;  
+    width: auto;
+    margin-right: 60px;
+    margin-left: 60px;
+
+   
+}
+.text-block{
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    right: 28%;
+    color: rgb(9, 31, 31); 
+    font-family: 'Bodoni Moda', serif;
+    text-shadow: 1px 1px rgb(7, 17, 44);
+    word-spacing: 5px;
+    font-size: 15px;
+    
+ 
+    
+
+   
+}
+.para{
+    
+    font-weight:bold;
+    margin-block: 5px;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+#line{
+    font-family:serif;
+    color: rgb(143, 143, 55);
+    font-size: 15px;
+
+}
+#content{
+    height: 20%;
+    width: auto;
+    background-color:rgb(9, 31, 31);
+    color: white;
+    padding: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+
+}
+#inputbox{
+    border-style: solid;
+    padding: 2px;
+    border-color:steelblue;
+    font-size: 12px;
+}
+#con{
+    height: 20%;
+    width: auto;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#italic{
+    text-align: center;
+    font-style: italic;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+#coupon{
+    padding-top: 10px;
+    font-size: 15px;
+   
+}
+button{
+    background-color:rgb(19, 54, 54);
+    color: white;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+#footer{
+    height:153px;
+    width: auto;
+
+   
+}
+#img1{
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+#img2{
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+#img3{
+    margin-right: 60px;
+    margin-left: 60px;
+    float: right;
+
+}
+#img4{
+    margin-right: 60px;
+    margin-left: 60px;
+    float: right;
+  
+}
+
+
+
